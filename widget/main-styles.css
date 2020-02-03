@@ -1,0 +1,57 @@
+body, html {
+  padding: 0;
+  margin: 0; }
+
+div.wrapper {
+  padding: 10px;
+  margin: 10px; }
+
+h1 {
+  color: beige; }
+
+input:read-only {
+  background-color: #d0d0d0; }
+
+.identifier-first__account-list {
+  margin: 0; }
+
+.identifier-first__account-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #d1d3d4;
+  margin: 0;
+  padding: 15px 10px; }
+  .identifier-first__account-item:hover {
+    background-color: #f0f6f7; }
+  .identifier-first__account-item__another_acount {
+    font-size: 13px;
+    padding: 15px 10px; }
+
+.identifier-first__account-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+  flex: auto; }
+
+.identifier-first__cancel {
+  margin-top: 10px; }
+
+.identifier-first__add-account {
+  cursor: default;
+  border: none; }
+  .identifier-first__add-account:hover {
+    background-color: inherit; }
+
+.identifier-first__remove-account {
+  font-size: 18px;
+  height: 18px;
+  line-height: 18px;
+  margin-left: auto; }
+  .identifier-first__remove-account:before {
+    color: #d1d3d4;
+    font-family: 'iconfont';
+    content: 'x'; }
+
+
+/*# sourceMappingURL=main-styles.css.map*/
